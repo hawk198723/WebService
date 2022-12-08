@@ -5,7 +5,7 @@ import javax.xml.ws.Endpoint;
 
 @WebService
 public class HelloService {
-    public String Greeting(String name){
+    public String Greeting(String name,int i){
         System.out.println("Greeting method being called...");
         return "hello" + name;
     }
